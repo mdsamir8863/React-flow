@@ -1,0 +1,22 @@
+ .Logo{
+    position: absolute;
+    margin-left: 2rem;
+}
+ .Logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-decoration: none;
+    color: black;
+    gap: .5rem;
+    
+}
+ .Logo span {
+ color: #9e1717;
+    
+}
+nav{
+    margin-top: 5rem;
+
+}

@@ -1,0 +1,81 @@
+
+
+nav ul a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+nav ul a:hover {
+  color: #7b80d8;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.container{
+  position: absolute;
+  right: 2;
+  width: 60vw;
+  height: 80vh;
+  display: flex;
+}
+.blur {
+  position: absolute;
+  z-index: -1;
+  height: 20rem;
+  width: 20rem;
+  background-color: rgb(208, 228, 191);
+  border-radius: 50%;
+  filter: blur(200px);
+  right: 3rem;
+  top: 25rem;
+}
+
+.blur2 {
+  position: absolute;
+  z-index: -1;
+  height: 20rem;
+  width: 20rem;
+  background-color: rgb(77, 194, 194);
+  border-radius: 50%;
+  filter: blur(300px);
+  left: 3rem;
+  top: 0rem;
+}
